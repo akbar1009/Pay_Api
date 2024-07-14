@@ -7,5 +7,26 @@
 }
 
 body{
-    // font-family: Font name here;
+    background-color: #EDF3F8;
+    background-image: url(../images/Back\ img.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 600px 600px;
+}
+
+@media (max-width:850px){
+    body{
+        background-image: url(../images/header-tablet-bg.png);
+        background-repeat: no-repeat;
+        background-size: 949px auto;
+        background-position: center top;
+    }
+}
+@media (max-width:689px){
+    body{
+        background-image: url(../images/header-mobile-bg.png);
+        background-repeat: no-repeat;
+        background-size: 780px auto;
+        background-position: center top;
+    }
 }
